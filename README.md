@@ -12,9 +12,9 @@
       </table>
   </div>
   </details>
-
+  
   <details>
-  <summary><a href="https://swexpertacademy.com/main/main.do/">SWEA</a> </summary>
+  <summary><a href="https://swexpertacademy.com">SWEA</a> </summary>
   <div markdown="1">
       <table border="1">
           <th>NO.</th>
@@ -23,17 +23,38 @@
       </table>
       </div>
   </details>
-
-  ▶ [Programmers](#https://programmers.co.kr/)
-
   
-
+  
+  <details>
+      <summary><a href="https://programmers.co.kr/">Programmers</a> </summary>
+  	<div markdown="1">
+      </div>
+  </details>
+  
+  
 - Problem solving algorithm
   - dfs
   - bfs
   - dp
   - greedy
   - sort(bubble/ quick/ selection/ counting)
+  - union-find
+  
+  
+
+## CS
+
+- Stack/ Queue
+- Tree
+  - Heap
+  - segment tree
+  - index tree
+
+
+
+## Data Analytics
+
+- EDA
 
 
 
@@ -53,8 +74,9 @@
 
 
 
-## CS
 
-- Stack/ Queue
-- 
+
+## Python
+
+- name convention
 
