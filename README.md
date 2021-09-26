@@ -43,14 +43,16 @@
   - [1. 데이터 모델링의 이해](https://github.com/jiyooniverse/TIL/blob/master/sqld/1.%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%AA%A8%EB%8D%B8%EB%A7%81%EC%9D%98%20%EC%9D%B4%ED%95%B4.md)
   - 2\. SQL 기본 및 활용
 - MySQL
-  - 
+  -  
 
 
 
 ## Django
 
+- [Django 시작하기](https://github.com/jiyooniverse/TIL/blob/master/django/Django%20%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0.md)
+
 - URLCONF
-- Static File/ MEDIA
+- [Static File/ MEDIA](https://github.com/jiyooniverse/TIL/blob/master/django/Static%2C%20Media.md)
 - SQLite
 
 
@@ -60,8 +62,8 @@
 ## Python
 
 - Python PEP8 Style Guide ([공부한 사이트](https://realpython.com/python-pep8/))
-  - [Naming Conventions]()
-  - Code Layout
+  - [Naming Conventions](https://github.com/jiyooniverse/TIL/blob/master/python/Naming%20Conventions.md)
+  - [Code Layout](https://github.com/jiyooniverse/TIL/blob/master/python/Code_Layout.md)
   - Indentation
 
 - Built-in Functions : map, zip, 
