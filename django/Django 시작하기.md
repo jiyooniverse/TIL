@@ -1,5 +1,9 @@
 # Django 시작하기
 
+
+
+## Django 시작하기
+
 - 가상 환경 설정
 
   ```bash
@@ -97,7 +101,7 @@
 
 
 
-# Django App 작성하기
+## Django App 작성하기
 
 1. `<project-name>/urls.py` 
 
@@ -114,4 +118,49 @@
    ]
    ```
 
-2. `<my-app>/urls.py` 에 `<my-app>`에서 
+2. `<my-app>/urls.py` 에 `<my-app>`에서 사용할 기능들에 대한 `url`을 작성한다.
+
+   ```python
+   from django.urls import path
+   from . import views
+   
+   
+   app_name = 'my_app'
+   urlpatterns = [
+       path('', views.index, name='index'),
+       ...,
+   ]
+   ```
+
+3. `url` 접근 시 호출 되는 함수들을 `views.py`에 작성한다. 
+
+   ```python
+   def index(request):
+       pass
+   ```
+
+4. `<my-app>/templates` 에 web상에 보여질 화면을 `html`파일로 작성한다.
+
+   - 모든 화면에서 공통적으로 사용되는 부분은 `BASE_DIR/templates`에 `base.html`로 작성해주며 (이름 변경 가능), `settings.py`에 `TEMPLATES`에 해당 `templates`도 확인하라고 작성한다. 
+
+     ```python
+     TEMPLATES = [
+         {
+             'BACKEND': 'django.template.backends.django.DjangoTemplates',
+             'DIRS': [BASE_DIR / 'templates'],
+             ...
+     ```
+
+   - `base.html`에서 공통적으로 사용되는 부분외에 변경 가능한 부분에 대해 `{% block %}` 태그를 사용하여 구역을 정해준다.
+
+   - 각 `app`의 `templates`에서 해당 `base.html`을 사용하기 위해 `{% extends %}` 태그와 `{% block %}` 태그를 사용한다.
+
+     ```django
+     {% extends 'base.html' %}
+     
+     {% block content %}  
+     {% endblock content %}
+     ```
+
+     
+
