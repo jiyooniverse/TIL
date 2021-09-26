@@ -49,10 +49,10 @@
 
 ## Django
 
-- [Django 시작하기](https://github.com/jiyooniverse/TIL/blob/master/django/Django%20%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0.md)
+- [Django 시작하기](https://github.com/jiyooniverse/TIL/blob/master/django/Django_%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0.md)
 
 - URLCONF
-- [Static File/ MEDIA](https://github.com/jiyooniverse/TIL/blob/master/django/Static%2C%20Media.md)
+- [Static File/ MEDIA](https://github.com/jiyooniverse/TIL/blob/master/django/Static_Media.md)
 - SQLite
 
 
@@ -62,7 +62,7 @@
 ## Python
 
 - Python PEP8 Style Guide ([공부한 사이트](https://realpython.com/python-pep8/))
-  - [Naming Conventions](https://github.com/jiyooniverse/TIL/blob/master/python/Naming%20Conventions.md)
+  - [Naming Conventions](https://github.com/jiyooniverse/TIL/blob/master/python/Naming_Conventions.md)
   - [Code Layout](https://github.com/jiyooniverse/TIL/blob/master/python/Code_Layout.md)
   - Indentation
 
