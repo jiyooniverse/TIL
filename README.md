@@ -40,10 +40,10 @@
 ## SQL
 
 - [SQLD](https://www.dataq.or.kr/www/sub/a_04.do) (reference book : [이기적 SQL 개발자 이론서](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&barcode=9788931462692))
-  - [1. 데이터 모델링의 이해](https://github.com/jiyooniverse/TIL/blob/master/sqld/1.%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%AA%A8%EB%8D%B8%EB%A7%81%EC%9D%98%20%EC%9D%B4%ED%95%B4.md)
-  - 2\. SQL 기본 및 활용
+  - [1. 데이터 모델링의 이해](https://github.com/jiyooniverse/TIL/blob/master/sql/sqld/1.%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%AA%A8%EB%8D%B8%EB%A7%81%EC%9D%98%20%EC%9D%B4%ED%95%B4.md)
+  - [2\. SQL 기본 및 활용](https://github.com/jiyooniverse/TIL/blob/master/sql/sqld/2.%20SQL%20%EA%B8%B0%EB%B3%B8%20%EB%B0%8F%20%ED%99%9C%EC%9A%A9.md)
 - MySQL
-  -  
+  -    
 
 
 
