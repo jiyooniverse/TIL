@@ -2,16 +2,16 @@
 
 - Solved Problems
   
-  - [BOJ](https://github.com/jiyooniverse/TIL/tree/master/algorithm/BOJ)
+  - [BOJ](https://github.com/jiyooniverse/TIL/tree/master/algorithm-problems/BOJ)
   
-  - [SWEA](https://github.com/jiyooniverse/TIL/tree/master/algorithm/SWEA)
+  - [SWEA](https://github.com/jiyooniverse/TIL/tree/master/algorithm-problems/SWEA)
   
-  - Programmers
+  - [Programmers](https://github.com/jiyooniverse/TIL/tree/master/algorithm-problems/PROGRAMMERS)
   
     
   
-- Problem solving algorithm
-  - dfs
+- Problem Solving Algorithm
+  - DFS
   - bfs
   - dp
   - greedy

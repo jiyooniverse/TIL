@@ -6,21 +6,25 @@
 
 - 데이터베이스 생성
 
-```sqlite
+  기존에 <databasename>의 db가 있으면 해당 db에 연결한다.
+
+```bash
 $ sqlite3 <databasename>.sqlite3
 ```
+
+> <databasename> 없이 `sqlite3`만 실행 시 **Connected to a trasient in-memory database** → database에 저장되지 않음 
 
 데이터베이스 생성문 실행 후 `sqlite` 프롬프트 환경으로 설정된다. (`sqlite`가 프롬프트 앞에 붙음 )
 
 - 데이터베이스 확인
 
-```sqlite
+```bash
 sqlite>.database
 ```
 
 - sqlite 프롬프트에서 나오기
 
-```sqlite
+```bash
 sqlite>.quit
 ```
 
