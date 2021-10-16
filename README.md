@@ -16,9 +16,10 @@
   - dp
   - greedy
   - sort(bubble/ quick/ selection/ counting)
-  - union-find
+  - [Union-Find](https://github.com/jiyooniverse/TIL/blob/master/algorithm/Union-Find.md)
+  - [MST - Prim, Kruskal](https://github.com/jiyooniverse/TIL/blob/master/algorithm/MST.md)
   - klm
-  
+
   
 
 ## CS
