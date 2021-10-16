@@ -1,0 +1,58 @@
+# STRING, DATE
+
+1. 루시와 엘라 찾기
+
+   ```mysql
+   SELECT ANIMAL_ID, NAME, SEX_UPON_INTAKE FROM ANIMAL_INS WHERE NAME IN ('Lucy', 'Ella', 'Pickle', 'Rogan', 'Sabrina', 'Mitty') ORDER BY ANIMAL_ID
+   ```
+
+2. 이름에 el이 들어가는 동물 찾기
+
+   ```mysql
+   SELECT ANIMAL_ID, NAME FROM ANIMAL_INS
+   WHERE NAME LIKE '%el%' AND ANIMAL_TYPE = 'Dog'
+   ORDER BY NAME
+   ```
+
+3. 중성화 여부 파악하기
+
+   ```mysql
+   # 1. UNION 사용
+   SELECT ANIMAL_ID, NAME, 'O' AS '중성화' FROM ANIMAL_INS
+   WHERE SEX_UPON_INTAKE LIKE '%Neutered%' or SEX_UPON_INTAKE LIKE '%Spayed%' 
+   UNION
+   SELECT ANIMAL_ID, NAME, 'X' '중성화' FROM ANIMAL_INS
+   WHERE SEX_UPON_INTAKE LIKE '%Intact%'
+   ORDER BY ANIMAL_ID
+   
+   # 2. CASE 문 사용
+   SELECT ANIMAL_ID, NAME, 
+   	CASE 
+   	WHEN SEX_UPON_INTAKE LIKE '%Neutered%' OR SEX_UPON_INTAKE LIKE '%Spayed'
+   	THEN 'O'
+   	ELSE 'X'
+   	END '중성화'
+   FROM ANIMAL_INS
+   ORDER BY ANIMAL_ID
+   
+   ```
+
+4. 오랜 기간 보호한 동물(2)
+
+   ```mysql
+   SELECT INS.ANIMAL_ID, INS.NAME FROM ANIMAL_OUTS OUTS JOIN ANIMAL_INS INS
+   ON OUTS.ANIMAL_ID = INS.ANIMAL_ID
+   ORDER BY (OUTS.DATETIME - INS.DATETIME) DESC LIMIT 2
+   ```
+
+5. DATETIME에서 DATE로 형 변환
+
+   ```mysql
+   # 1. LEFT() 함수 사용
+   SELECT ANIMAL_ID, NAME, LEFT(DATETIME, 10) '날짜' FROM ANIMAL_INS ORDER BY ANIMAL_ID
+   
+   # 2. DATE_FORMAT 사용
+   SELECT ANIMAL_ID, NAME, DATE_FORMAT(DATETIME, '%Y-%m-%d') '날짜' FROM ANIMAL_INS ORDER BY ANIMAL_ID
+   ```
+
+   

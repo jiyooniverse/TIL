@@ -1,0 +1,45 @@
+# GROUP BY
+
+1. 고양이와 개는 몇 마리 있을까
+
+   ```mysql
+   SELECT ANIMAL_TYPE, COUNT(*) FROM ANIMAL_INS
+   GROUP BY ANIMAL_TYPE
+   ORDER BY ANIMAL_TYPE
+   ```
+
+2. 동명 동물 수 찾기
+
+   ```mysql
+   SELECT * FROM ANIMAL_INS
+   GROUP BY NAME
+   HAVING COUNT(NAME) > 1
+   ORDER BY NAME
+   ```
+
+3. 입양 시각 구하기(1)
+
+   ```mysql
+   SELECT HOUR(DATETIME) AS HOUR, COUNT(*) AS COUNT FROM ANIMAL_OUTS
+   WHERE HOUR(DATETIME) BETWEEN 9 AND 20
+   GROUP BY HOUR
+   ORDER BY HOUR
+   ```
+
+4. 입양 시각 구하기(2)
+
+   ```mysql
+   WITH RECURSIVE TIME(
+   	SELECT 0 AS H
+       UNION ALL
+       SELECT H + 1 FROM TIME WHERE H < 23
+   )
+   
+   SELECT H AS HOUR, COUNT(DATETIME) AS COUNT FROM TIME
+   LEFT JOIN ANIMAL_OUTS
+   ON H = HOUR(DATETIME)
+   GROUP BY H
+   ORDER BY H
+   ```
+
+   
