@@ -71,5 +71,5 @@
 
 
 - DFS 뿌시기 :[ BOJ - N과 M문제 시리즈](https://www.acmicpc.net/problemset?search=N%EA%B3%BC+M)
-  - 풀이 정리
+  - [풀이 정리](https://github.com/jiyooniverse/TIL/blob/master/algorithm/%EC%88%9C%EC%97%B4-%EC%A1%B0%ED%95%A9.md)
 

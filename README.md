@@ -11,8 +11,8 @@
     
   
 - Problem Solving Algorithm
-  - DFS
-  - bfs
+  - [DFS](https://github.com/jiyooniverse/TIL/blob/master/algorithm/DFS.md)
+  - BFS
   - dp
   - greedy
   - sort(bubble/ quick/ selection/ counting)
