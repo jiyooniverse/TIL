@@ -35,6 +35,7 @@
 ## Data Analytics
 
 - EDA
+- tensorflow
 
 
 
@@ -66,5 +67,21 @@
   - [Naming Conventions](https://github.com/jiyooniverse/TIL/blob/master/python/Naming_Conventions.md)
   - [Code Layout](https://github.com/jiyooniverse/TIL/blob/master/python/Code_Layout.md)
   - Indentation
-
 - Built-in Functions : map, zip, 
+- self
+
+
+
+
+
+## Mathematics
+
+- Eigenvalues and Eigenvectors
+- Singular Value Decomposition
+- PCA(Principal Component Analysis)
+- Gradient Descent
+- Wavelet
+- Norm 
+- Moving Least Squares
+- Linear Regression
+- DTW(Dynamic Time Warping)

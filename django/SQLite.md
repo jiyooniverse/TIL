@@ -7,56 +7,82 @@
 - 데이터베이스 생성
 
   기존에 <databasename>의 db가 있으면 해당 db에 연결한다.
+  
+  ```bash
+  $ sqlite3 <databasename>.sqlite3
+  ```
+  
+  > <databasename> 없이 `sqlite3`만 실행 시 **Connected to a trasient in-memory database** → database에 저장되지 않음 .
 
-```bash
-$ sqlite3 <databasename>.sqlite3
-```
 
-> <databasename> 없이 `sqlite3`만 실행 시 **Connected to a trasient in-memory database** → database에 저장되지 않음 
 
-데이터베이스 생성문 실행 후 `sqlite` 프롬프트 환경으로 설정된다. (`sqlite`가 프롬프트 앞에 붙음 )
+데이터베이스 생성문 실행 후 `sqlite` 프롬프트 환경으로 설정된다. (`sqlite`가 프롬프트 앞에 붙음 
 
 - 데이터베이스 확인
 
-```bash
-sqlite>.database
-```
+  ```sqlite
+  .database
+  ```
 
 - sqlite 프롬프트에서 나오기
 
-```bash
-sqlite>.quit
-```
+  ```sqlite
+  .quit
+  ```
+
+- `csv` 파일 데이터 database에 넣기
+
+  ```sqlite
+  .mode csv
+  .import example.csv examples
+  ```
+
+- DB의 `table` 확인하기
+
+  ```sqlite
+  .tables
+  ```
+
+- table의 `schema` 확인하기
+
+  ```sqlite
+  .schema classmates
+  ```
+
+- terminal 환경에서 환경 설정
+
+  ```sqlite
+  .headers on
+  .mode column
+  ```
 
 
 
 
 
-```sqlite
-.mode csv
-.import example.csv examples
-.tables
-SELECT * FROM examples
-.headers on
-.mode column
-CREATE TABLE classmates (
-	id INTEGER PRIMARY KEY,
-    name TEXT
-);
-.schema classmates
-DROP TABLE classmates;
+# SQL ORM
 
-```
+- ORM(object-Relation Mapping)은 객체지향 프로그래밍 언어와 관계형 데이터 베이스를 연결해주는 방법이다.
+
+  > Python --> 
+
+- Django 프레임워크에서는 기본적으로 `ORM`을 제공하고 있다.
 
 
 
 
 
-### Migrate
+- shell_plus를 통해 실습하기
+
+  ```bash
+  $ python manage.py shell_plus
+  ```
+
+  > DB에 테스트로 데이터를 생성하거나 다룰 때 shell을 통해 간편하게 작업할 수 있다.
 
 
 
 
 
-### SQL ORM
+
 
