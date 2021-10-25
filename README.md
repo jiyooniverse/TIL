@@ -12,7 +12,7 @@
   
 - Problem Solving Algorithm
   - [DFS](https://github.com/jiyooniverse/TIL/blob/master/algorithm/DFS.md)
-  - BFS
+  - [BFS](https://github.com/jiyooniverse/TIL/blob/master/algorithm/BFS.md)
   - dp
   - greedy
   - sort(bubble/ quick/ selection/ counting)
