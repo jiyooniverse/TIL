@@ -1,12 +1,39 @@
 # BFS(너비 우선 탐색)
 
+- `BFS(Breadth First Search)`는 시작 정점의 인접한 정점들을 먼저 모두 차례로 방문한 후에, 방문점을 시작점으로 하여 다시 인접한 정점들을 차례로 방문하는 방식이다.
+- 인접한 정점들에 대해 탐색을 한 후, 차례로 다시 너비 우선탐색을 진행해야 하므로, <u>선입선출형태의 자료구조인 [큐]()</u>를 활용한다.
+
+> 주로 최소 지점을 거쳐 도착하는 방법에 대해 계산할 때 활용한다. 
 
 
 
+- 구현
+
+  ```python
+  # BFS
+  T = int(input())
+  for tc in range(T):
+      N, M = map(int, input().split())
+      G = [[] for in range(N)]
+  	
+      for _ in range(M):
+  	    a, b = map(int, input().split())
+      	G[a].append(b)
+  
+      q = []	# queue 생성
+      q.append(0)	# 시작점 setting
+      
+      while len(q) != 0:
+          now = q.pop(0)
+          for next in G[now]:	# now와 인접한 정점들 방문하기 위해 queue에 추가     
+              q.append(next)
+  ```
+
+  
 
 
 
-
+-----
 
 - 최단 경로 + 경우의 수
 
