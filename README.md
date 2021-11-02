@@ -11,15 +11,18 @@
     
   
 - Problem Solving Algorithm
+  
+  - Sort(bubble/ quick/ selection/ counting)
   - [DFS](https://github.com/jiyooniverse/TIL/blob/master/algorithm/DFS.md)
   - [BFS](https://github.com/jiyooniverse/TIL/blob/master/algorithm/BFS.md)
+  - [Bit-Mask](https://github.com/jiyooniverse/TIL/blob/master/algorithm/Bit-Mask.md)
   - dp
   - greedy
-  - sort(bubble/ quick/ selection/ counting)
   - [Union-Find](https://github.com/jiyooniverse/TIL/blob/master/algorithm/Union-Find.md)
   - [MST - Prim, Kruskal](https://github.com/jiyooniverse/TIL/blob/master/algorithm/MST.md)
+  - [Dijkstra](https://github.com/jiyooniverse/TIL/blob/master/algorithm/Dijkstra%20Algorithm.md)
   - klm
-
+  
   
 
 ## CS
@@ -67,8 +70,22 @@
   - [Naming Conventions](https://github.com/jiyooniverse/TIL/blob/master/python/Naming_Conventions.md)
   - [Code Layout](https://github.com/jiyooniverse/TIL/blob/master/python/Code_Layout.md)
   - Indentation
+  
 - Built-in Functions : map, zip, 
+
 - self
+
+- library
+
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+
+  
+
+  - tensorflow
+  - pytorch
 
 
 
