@@ -27,18 +27,30 @@
 
 ## CS
 
-- Stack/ Queue
-- Tree
-  - Heap
-  - segment tree
-  - index tree
+- Data Structure
+  - [Stack/ Queue](https://github.com/jiyooniverse/TIL/blob/master/algorithm/Stack-Queue.md)
+  - Tree
+    - Heap
+    - segment tree
+    - index tree
+
+- DB(Data Base)
+
+  - postgresql
+
+    
+
+- OS(Operating System)
 
 
 
 ## Data Analytics
 
+- ETL
+
 - EDA
 - tensorflow
+  - tensorflow 시작하기(설치)
 
 
 
@@ -55,26 +67,48 @@
 ## Django
 
 - [Django 시작하기](https://github.com/jiyooniverse/TIL/blob/master/django/Django_%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0.md)
-
 - URLCONF
 - [Static File/ MEDIA](https://github.com/jiyooniverse/TIL/blob/master/django/Static_Media.md)
 - SQLite
 
 
 
+## JavaScript
+
+- 
+
+
+
+## Vue.js
+
+- 
+
 
 
 ## Python
 
+- Python 문법 ([공부한 사이트](https://dojang.io/course/view.php?id=7))
+  
+  - 기초 문법1()
+  - 기초 문법2()
+  - 람다 표현식unit32
+  - 클로저 33
+  - 클래스 34~37
+  - 이터레이터 39
+  - 제너레이터 40
+  - 코루틴 41
+  - 데코레이터 42
+  - 43, 44, 45
+  - Built-in Functions : map, zip, 
+  
 - Python PEP8 Style Guide ([공부한 사이트](https://realpython.com/python-pep8/))
+  
   - [Naming Conventions](https://github.com/jiyooniverse/TIL/blob/master/python/Naming_Conventions.md)
   - [Code Layout](https://github.com/jiyooniverse/TIL/blob/master/python/Code_Layout.md)
   - Indentation
   
-- Built-in Functions : map, zip, 
-
-- self
-
+  
+  
 - library
 
   - numpy
@@ -93,10 +127,10 @@
 
 ## Mathematics
 
-- Eigenvalues and Eigenvectors
-- Singular Value Decomposition
-- PCA(Principal Component Analysis)
-- Gradient Descent
+- **Eigenvalues and Eigenvectors**
+- **Singular Value Decomposition**
+- **PCA(Principal Component Analysis)**
+- **Gradient Descent**
 - Wavelet
 - Norm 
 - Moving Least Squares
